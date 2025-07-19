@@ -76,6 +76,7 @@ Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Section 12.4. Compilation, Evaluation, and Loading ](https://cisco.github.io/ChezScheme/csug/system.html#./system:h4)
 
+[Chez Scheme Version 10 User's Guide / Section 12.5. Source Directories and Files ](https://cisco.github.io/ChezScheme/csug/system.html#g121)
 
 ## Command line
 
