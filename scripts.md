@@ -53,9 +53,9 @@ $ ./cmd.ss 1 two III
 
 Would you like to know more?
 
-[ Chez Scheme Version 10 User's Guide / Section 1.3. Parameters ](https://cisco.github.io/ChezScheme/csug10.1.0/intro.html#./intro:h3)
+[ Chez Scheme Version 10 User's Guide / Section 1.3. Parameters](https://cisco.github.io/ChezScheme/csug10.1.0/intro.html#./intro:h3)
 
-[Chez Scheme Version 10 User's Guide / Section 2.5. Scheme Shell Scripts ](https://cisco.github.io/ChezScheme/csug10.1.0/use.html#./use:h5)
+[Chez Scheme Version 10 User's Guide / Section 2.5. Scheme Shell Scripts](https://cisco.github.io/ChezScheme/csug10.1.0/use.html#./use:h5)
 
 ## Environment
 
@@ -77,4 +77,29 @@ $ ./env.ss
 
 Would you like to know more?
 
-[hez Scheme Version 10 User's Guide / Section 12.5. Source Directories and Files ](https://cisco.github.io/ChezScheme/csug/system.html#./system:h15)
+[Chez Scheme Version 10 User's Guide / Section 12.5. Source Directories and Files](https://cisco.github.io/ChezScheme/csug/system.html#./system:h15)
+
+## Shell command
+
+Edit `script.ss`
+
+```scheme
+#! /usr/bin/env -S scheme --script
+
+(system "ls -l")
+```
+Run `script.ss`
+
+```bash
+$ ./script.ss
+total 0
+-rw-rw-r-- 1 tell tell 0 Jul 20 00:15 a.ss
+-rw-rw-r-- 1 tell tell 0 Jul 20 00:15 b.ss
+-rw-rw-r-- 1 tell tell 0 Jul 20 00:15 c.ss
+0
+```
+
+Would you like to know more?
+
+[Chez Scheme Version 10 User's Guide / Chapter 4. Foreign Interface](https://cisco.github.io/ChezScheme/csug9.5/foreign.html)
+
