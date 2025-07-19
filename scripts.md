@@ -1,6 +1,6 @@
 # Linux scripts using Chez Scheme
 
-## Plain script
+## Script
 
 Edit `hello.ss`
 
@@ -30,9 +30,6 @@ Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Section 2.5. Scheme Shell Scripts ](https://cisco.github.io/ChezScheme/csug10.1.0/use.html#./use:h5)
 
-
-
-
 ## Command line
 
 When the `--script` command-line option is present, the command-line is made available via the parameter `command-line`.
@@ -60,7 +57,7 @@ Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Section 2.5. Scheme Shell Scripts ](https://cisco.github.io/ChezScheme/csug10.1.0/use.html#./use:h5)
 
-## The Environment
+## Environment
 
 Edit `env.ss`
 
