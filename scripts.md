@@ -83,7 +83,7 @@ Edit `cmd.ss`
 #! /usr/bin/env -S scheme --script
 
 (display (command-line))
-(display "\n")
+(newline)
 ```
 
 Run `cmd.ss`
