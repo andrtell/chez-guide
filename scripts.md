@@ -103,7 +103,7 @@ Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Chapter 4. Foreign Interface](https://cisco.github.io/ChezScheme/csug9.5/foreign.html)
 
-## Shell command (with output capture)
+## Shell command (with captured output)
 
 Edit `script.ss`
 
