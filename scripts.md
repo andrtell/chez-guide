@@ -104,3 +104,25 @@ Would you like to know more?
 [ Chez Scheme Version 10 User's Guide / Section 1.3. Parameters ](https://cisco.github.io/ChezScheme/csug10.1.0/intro.html#./intro:h3)
 
 [Chez Scheme Version 10 User's Guide / Section 2.5. Scheme Shell Scripts ](https://cisco.github.io/ChezScheme/csug10.1.0/use.html#./use:h5)
+
+## The Environment
+
+Edit `env.ss`
+
+```scheme
+#! /usr/bin/env -S scheme --script
+
+(display (getenv "HOME"))
+(newline)
+```
+
+Run `env.ss`
+
+```bash
+$ ./env.ss
+/home/user
+```
+
+Would you like to know more?
+
+[hez Scheme Version 10 User's Guide / Section 12.5. Source Directories and Files ](https://cisco.github.io/ChezScheme/csug/system.html#./system:h15)
