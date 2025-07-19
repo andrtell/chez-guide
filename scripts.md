@@ -103,3 +103,31 @@ Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Chapter 4. Foreign Interface](https://cisco.github.io/ChezScheme/csug9.5/foreign.html)
 
+## Shell command (with output capture)
+
+Edit `script.ss`
+
+```scheme
+#! /usr/bin/env -S scheme --script
+
+(let-values 
+  ([(in out err pid) 
+    (open-process-ports "ls -l" 'block (make-transcoder (utf-8-codec)))])
+   (display (get-string-all out)))
+```
+
+Run `script.ss`
+
+```bash
+$ ./script.ss
+total 0
+-rw-rw-r-- 1 tell tell 0 Jul 20 00:15 a.ss
+-rw-rw-r-- 1 tell tell 0 Jul 20 00:15 b.ss
+-rw-rw-r-- 1 tell tell 0 Jul 20 00:15 c.ss
+```
+
+Would you like to know more?
+
+[Chez Scheme Version 10 User's Guide / Chapter 4. Foreign Interface](https://cisco.github.io/ChezScheme/csug9.5/foreign.html)
+
+
