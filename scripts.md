@@ -30,6 +30,7 @@ Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Section 2.5. Scheme Shell Scripts ](https://cisco.github.io/ChezScheme/csug10.1.0/use.html#./use:h5)
 
+
 ## Loading files
 
 Files can be loaded.
@@ -72,6 +73,9 @@ Goodbye
 Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Chapter 2. Getting Started](https://www.scheme.com/tspl4/start.html#./start:h0)
+
+[Chez Scheme Version 10 User's Guide / Section 12.4. Compilation, Evaluation, and Loading ](https://cisco.github.io/ChezScheme/csug/system.html#./system:h4)
+
 
 ## Command line
 
