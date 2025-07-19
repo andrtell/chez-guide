@@ -1,4 +1,4 @@
-# Linux Shell scripts in Chez Scheme
+# Linux scripts using Chez Scheme
 
 ## Plain script
 
@@ -72,3 +72,30 @@ Goodbye
 Would you like to know more?
 
 [Chez Scheme Version 10 User's Guide / Chapter 2. Getting Started](https://www.scheme.com/tspl4/start.html#./start:h0)
+
+## Command line
+
+When the `--script` command-line option is present, the command-line is made available via the parameter `command-line`.
+
+Edit `cmd.ss`
+
+```scheme
+#! /usr/bin/env -S scheme --script
+
+(display (command-line))
+(display "\n")
+```
+
+Run `cmd.ss`
+
+```bash
+$ ./cmd.ss 1 two III
+(./cmd.ss 1 two III)
+```
+
+
+Would you like to know more?
+
+[ Chez Scheme Version 10 User's Guide / Section 1.3. Parameters ](https://cisco.github.io/ChezScheme/csug10.1.0/intro.html#./intro:h3)
+
+[Chez Scheme Version 10 User's Guide / Section 2.5. Scheme Shell Scripts ](https://cisco.github.io/ChezScheme/csug10.1.0/use.html#./use:h5)
