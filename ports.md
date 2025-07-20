@@ -12,24 +12,25 @@ When a `port` has reached the end of its stream, a special `eof` object is retur
 
 ## Read characters from an input-port
 
-Edit `script.ss`
+`script.ss`
 
 ```scheme
 #! /usr/bin/env -S scheme --script
 
-(define read-from
+(define read-characters
   (lambda (port)
     (let ([ch (get-char port)])
       (if (eof-object? ch)
 	'()
-	(cons ch (read-from port))))))
+	(cons ch (read-characters port))))))
 
-(display (read-from (current-input-port)))
-
-(newline)
+(let* ([port (current-input-port)]
+       [characters (read-characters port)])
+  (display characters)
+  (newline))
 ```
 
-Run `script.ss`
+Run it
 
 ```bash
 $ chmod +x ./script.ss
@@ -48,20 +49,21 @@ Edit `script.ss`
 ```scheme
 #! /usr/bin/env -S scheme --script
 
-(define write-to
-  (lambda (port ls)
-    (if (null? ls)
+(define write-characters
+  (lambda (port cs)
+    (if (null? cs)
       	#f
 	(begin
-	  (put-char port (car ls))
-	  (write-to port (cdr ls))))))
+	  (put-char port (car cs))
+	  (write-characters port (cdr cs))))))
 
-(write-to (current-output-port) '(#\a #\b #\c))
-
-(newline)
+(let ([port (current-output-port)]
+      [cs '(#\a #\b #\c)])
+  (write-characters port cs)
+  (newline))
 ```
 
-Run `script.ss`
+Run it
 
 ```bash
 $ ./script.ss
@@ -100,7 +102,7 @@ Would you like to know more?
   (newline))
 ```
 
-Run `script.ss`
+Run it
 
 ```bash
 $ ./script.ss
