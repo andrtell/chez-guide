@@ -14,3 +14,5 @@ Teaching my self Chez Scheme
 ### Awesome scheme pages
 
 [Theodesp/awesome-scheme](https://awesome.facts.dev/awesome/theodesp/awesome-scheme)
+
+[Schemedoc/awsome-scheme](https://github.com/schemedoc/awesome-scheme)
