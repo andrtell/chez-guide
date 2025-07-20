@@ -112,7 +112,9 @@ Edit `script.ss`
 
 (let-values 
   ([(in out err pid) 
-    (open-process-ports "ls -l" 'block (make-transcoder (utf-8-codec)))])
+    (open-process-ports "ls -l"
+                        (buffer-mode block)
+                        (make-transcoder (utf-8-codec)))])
    (display (get-string-all out)))
 ```
 
