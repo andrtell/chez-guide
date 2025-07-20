@@ -8,6 +8,8 @@ There are initially three ports:
 * `current-output-port` / stdout
 * `error-port` / stderr
 
+These are procedures to needs to be called to get the port value i.e `(current-input-port)`.
+
 When a `port` has reached the end of its stream, a special `eof` object is returned.
 
 ## Read characters from an input-port
