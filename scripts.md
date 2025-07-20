@@ -1,8 +1,8 @@
 # Linux scripts using Chez Scheme
 
-## Script
+## A Script
 
-Edit `hello.ss`
+`script.ss`
 
 ```scheme
 #! /usr/bin/env -S scheme --script
@@ -10,11 +10,11 @@ Edit `hello.ss`
 (display "Hello\n")
 ```
 
-Run `hello.ss`
+Run it
 
 ```
-$ chmod +x ./hello.ss
-$ ./hello.ss
+$ chmod +x ./script.ss
+$ ./script.ss
 Hello
 ```
 
