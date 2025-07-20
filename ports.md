@@ -6,7 +6,7 @@ There are initially three ports:
 
 * `current-input-port` / stdin
 * `current-output-port` / stdout
-* `error-port` / stderr
+* `current-error-port` / stderr
 
 These are procedures to needs to be called to get the port value i.e `(current-input-port)`.
 
