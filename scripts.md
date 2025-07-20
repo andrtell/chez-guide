@@ -135,3 +135,16 @@ Would you like to know more?
 
 [The Scheme Programming Language / Chapter 7. Input and Output](https://www.scheme.com/tspl4/io.html#./io:h0)
 
+## File system
+
+Chez comes with a handfull of procedures to allow you to interact with the file system.
+
+* `(current-directory)`
+* `(directory-list)`
+* ... and so on ...
+
+Would you like to know more?
+
+[Chez Scheme Version 10 User's Guide / Section 9.16. File System Interface](https://cisco.github.io/ChezScheme/csug/io.html#./io:h16)
+
+[The Scheme Programming Language / Section 7.10. Filesystem Operations](https://www.scheme.com/tspl4/io.html#./io:h10)
