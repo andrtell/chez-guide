@@ -7,6 +7,8 @@ Teaching my self Chez Scheme
 
 [The Scheme Programming Language 4th](https://www.scheme.com/tspl4/)
 
+[Chez Scheme](https://www.scheme.com/)
+
 [Chez Scheme Github project page](https://cisco.github.io/ChezScheme)
 
 [Scheme.org](https://www.scheme.org/)
