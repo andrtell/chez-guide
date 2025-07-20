@@ -8,23 +8,23 @@ There are initially three ports:
 * `current-output-port` / stdout
 * `error-port` / stderr
 
-When a `port` has reached the end of a finite stream, it returns a special `eof` object.
+When a `port` has reached the end of its stream, a special `eof` object is returned.
 
-## Read characters from input port
+## Read characters from an input-port
 
 Edit `script.ss`
 
 ```scheme
 #! /usr/bin/env -S scheme --script
 
-(define consume
+(define read-from
   (lambda (port)
     (let ([ch (get-char port)])
       (if (eof-object? ch)
 	'()
-	(cons ch (consume port))))))
+	(cons ch (read-from port))))))
 
-(display (consume (current-input-port)))
+(display (read-from (current-input-port)))
 
 (newline)
 ```
@@ -35,4 +35,31 @@ Run `script.ss`
 $ chmod +x ./script.ss
 $ echo -n "Hello" | ./script.ss
 (H e l l o)
+```
+
+## Write characters to an output-port
+
+Edit `script.ss`
+
+```scheme
+#! /usr/bin/env -S scheme --script
+
+(define write-to
+  (lambda (port ls)
+    (if (null? ls)
+      	#f
+	(begin
+	  (put-char port (car ls))
+	  (write-to port (cdr ls))))))
+
+(write-to (current-output-port) '(#\a #\b #\c))
+
+(newline)
+```
+
+Run `script.ss`
+
+```bash
+$ ./script.ss
+abc
 ```
