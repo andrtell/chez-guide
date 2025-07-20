@@ -40,7 +40,9 @@ $ echo -n "Hello" | ./script.ss
 
 Would you like to know more?
 
-[The Scheme Programming Language / Chapter 7. Input and Output](https://www.scheme.com/tspl4/io.html#./io:h0)
+[The Scheme Programming Language 4th / Chapter 7. Input and Output](https://www.scheme.com/tspl4/io.html#./io:h0)
+
+[Chez Scheme Version 10 User's Guide / Chapter 9. Input/Output Operations](https://cisco.github.io/ChezScheme/csug/io.html#./io:h1)
 
 ## Write characters to an output-port
 
@@ -73,6 +75,8 @@ abc
 Would you like to know more?
 
 [The Scheme Programming Language / Chapter 7. Input and Output](https://www.scheme.com/tspl4/io.html#./io:h0)
+
+[Chez Scheme Version 10 User's Guide / Chapter 9. Input/Output Operations](https://cisco.github.io/ChezScheme/csug/io.html#./io:h1)
 
 ## Read lines from a file
 
@@ -112,3 +116,5 @@ $ ./script.ss
 Would you like to know more?
 
 [The Scheme Programming Language / Section 7.9. Convenience I/O](https://www.scheme.com/tspl4/io.html#./io:h9)
+
+[Chez Scheme Version 10 User's Guide / Chapter 9. Input/Output Operations](https://cisco.github.io/ChezScheme/csug/io.html#./io:h1)
