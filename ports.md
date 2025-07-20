@@ -10,7 +10,7 @@ There are initially three ports:
 
 When a `port` has reached the end of a finite stream, it returns a special `eof` object.
 
-## Read all characters from input port
+## Read characters from input port
 
 Edit `script.ss`
 
