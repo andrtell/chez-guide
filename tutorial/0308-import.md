@@ -26,3 +26,8 @@ Copyright 1984-2025 Cisco Systems, Inc.
 > (load-program "top.ss")
 42
 ```
+
+```
+$ scheme --program top.ss
+42
+```
