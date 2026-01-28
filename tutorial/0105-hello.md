@@ -1,4 +1,4 @@
-[Top]() [Prev](./0104-hello.md)
+[Top]() [Prev](./0104-hello.md) [Next](./0201-repl.md)
 
 ```scheme
 #! /usr/bin/env scheme-script
