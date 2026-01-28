@@ -1,4 +1,4 @@
-[Top]() [Prev](./0103-hellomd)
+[Top]() [Prev](./0103-hello.md)
 
 ```scheme
 #! /usr/bin/env -S scheme --program
