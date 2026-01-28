@@ -2,6 +2,7 @@
 
 ```scheme
 ; hello.ss
+
 (import (chezscheme))
 
 (display "Hello, world!")
