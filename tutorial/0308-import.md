@@ -1,4 +1,4 @@
-[Top]() [Prev](./0307-import.md) [Next]()
+[Top]() [Prev](./0307-import.md) [Next](./0401-ffi-c.md)
 
 ```scheme
 ; ./lib.ss
