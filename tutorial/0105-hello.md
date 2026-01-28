@@ -4,6 +4,7 @@
 #! /usr/bin/env scheme-script
 
 ; hello.ss
+
 (import (chezscheme))
 
 (display "Hello, world!")
