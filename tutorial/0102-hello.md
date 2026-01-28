@@ -3,6 +3,8 @@
 ```scheme
 #! /usr/bin/env -S scheme --script
 
+; hello.ss
+
 (display "Hello, world!")
 (newline)
 ```
