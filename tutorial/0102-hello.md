@@ -4,6 +4,7 @@
 #! /usr/bin/env -S scheme --script
 
 (display "Hello, world!")
+(newline)
 ```
 
 ```
