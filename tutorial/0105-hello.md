@@ -12,7 +12,7 @@
 ```
 
 ```
-$ chmod u+x hello.ss
+$ chmod +x hello.ss
 $ ./hello.ss
 Hello, world!
 ```
