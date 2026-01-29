@@ -8,8 +8,10 @@
 #include <stdio.h>
 
 int main() {
-	char name[100];     // stack allocation of 100 chars on each call (automatic storage).
-	scanf("%s", name);
+	char name[100];     // Stack allocation of 100 chars on each call (automatic storage).
+
+	scanf("%s", name);  // Array (char[]) decays into a pointer (char *) to its first element.
+
 	printf("Hello, %s!\n", name);
 }
 ```
