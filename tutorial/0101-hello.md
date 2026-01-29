@@ -1,5 +1,7 @@
 [Top](./index.md) [Next](./0102-hello.md)
 
+----
+
 ```scheme
 ; hello.ss
 
