@@ -1,4 +1,6 @@
-[Top]() [Prev](./0205-repl.md) [Next](./0302-import.md)
+[Top](./index.md) [Prev](./0205-repl.md) [Next](./0302-import.md)
+
+----
 
 ```scheme
 
