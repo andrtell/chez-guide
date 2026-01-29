@@ -1,4 +1,6 @@
-[Top]() [Prev](./0302-import.md) [Next](./0304-import.md)
+[Top](./index.md) [Prev](./0302-import.md) [Next](./0304-import.md)
+
+----
 
 ```scheme
 ; ./lib.ss
