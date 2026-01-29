@@ -13,6 +13,8 @@ int main() {
 	scanf("%s", name);  // Array (char[]) decays into a pointer (char *) to its first element.
 
 	printf("Hello, %s!\n", name);
+
+	// 'name' is cleaned up here (main returns, stack space reclaimed)
 }
 ```
 
