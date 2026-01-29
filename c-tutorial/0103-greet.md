@@ -22,4 +22,3 @@ $ ./greet
 Peter
 Hello, Peter!
 ```
-
