@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-static char name[6] = "Peter";
+static char name[6] = "PETER";
 
 int main() {
   printf("Hello, %s\n", name);
