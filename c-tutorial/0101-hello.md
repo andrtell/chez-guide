@@ -14,6 +14,10 @@ int main() {
 
 ```
 $ cc -o hello hello.c
+
 $ ./hello
 Hello, world!
+
+$ echo $?
+0
 ```
