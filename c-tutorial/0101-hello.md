@@ -1,4 +1,4 @@
-[Top]() [Next](./0102-hello.md)
+[Up]() [Next](./0102-hello.md)
 
 ----
 
