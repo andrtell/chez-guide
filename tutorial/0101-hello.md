@@ -1,4 +1,4 @@
-[Top]() [Next](./0102-hello.md)
+[Top](./index.md) [Next](./0102-hello.md)
 
 ```scheme
 ; hello.ss
