@@ -89,3 +89,15 @@ SYNOPSIS
 
        int rand(void);
 ```
+
+_From:_ `man 3 printf`
+
+```
+LIBRARY
+       Standard C library (libc, -lc)
+
+SYNOPSIS
+       #include <stdio.h>
+
+       int printf(const char *restrict format, ...);
+```
