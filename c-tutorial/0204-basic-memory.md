@@ -44,3 +44,31 @@ cc -o greet greet.c
 Peter
 Hello, Peter!
 ```
+
+----
+
+_From:_ `man 3 malloc`
+
+```
+LIBRARY
+       Standard C library (libc, -lc)
+
+SYNOPSIS
+       #include <stdlib.h>
+
+       void *malloc(size_t size);
+       void free(void *_Nullable ptr);
+
+DESCRIPTION
+   malloc()
+       The  malloc()  function  allocates size bytes and returns a pointer to the allocated memory.
+       The memory is not initialized.  If size is 0, then malloc() returns a unique pointer value
+       that can later be successfully passed to free().
+
+   free()
+       The free() function frees the memory space pointed to by ptr, which must have been returned
+       by a previous call to malloc() or related functions.
+       Otherwise, or if ptr has already been freed, undefined behavior occurs.
+       If ptr is NULL, no operation is performed.
+```
+
