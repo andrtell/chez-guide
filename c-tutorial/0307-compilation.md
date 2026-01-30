@@ -5,9 +5,9 @@
 ```c
 // main.c
 
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <math.h>      // -lm
+#include <stdio.h>     // -lc
+#include <stdlib.h>    // -lc
 
 int main(void) {
 	double a = (double)rand();
@@ -20,7 +20,9 @@ int main(void) {
 ```sh
 # compile
 
-# note order -lm after main.c
+# note 1: -lc is implied.
+# note 2: -lm comes after main.c.
+
 cc main.c -lm
 ```
 
