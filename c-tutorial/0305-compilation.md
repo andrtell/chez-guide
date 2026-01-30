@@ -20,10 +20,8 @@ cc -O3 main.c
 _From:_ `man 1 gcc`
 
 ```
-Without  any  optimization  option,  the  compiler's  goal  is to reduce
-the cost of compilation and to make debugging produce the expected results.
-
-/.../
+Without any optimization option, the compiler's goal is to reduce the
+cost of compilation and to make debugging produce the expected results.
 
 Turning on optimization flags makes the compiler attempt to improve the
 performance and/or code size at the expense of compilation time and possibly
@@ -34,18 +32,17 @@ The compiler performs optimization based on the knowledge it has of the program.
 Compiling multiple files at once to a single output file mode allows the compiler
 to use information gained from all of the files when compiling each of them.
 
-/.../
-
 -O1 Optimize.
-    Optimizing compilation takes somewhat more time, and a lot more memory for a large function.
-    /.../
+
+    Optimizing compilation takes somewhat more time,
+    and a lot more memory for a large function.
 
 -O2 Optimize even more.
-    /.../
 
 -O3 Optimize yet more.
-    /.../
 
--O0 Reduce compilation time and make debugging produce the expected results.
+-O0 Reduce compilation time and make debugging produce
+    the expected results.
+
     This is the default.
 ```
