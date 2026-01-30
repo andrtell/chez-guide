@@ -27,7 +27,7 @@ int main(void) {
 cc -o greet greet.c
 ```
 
-```
+```sh
 # run
 
 ./greet
