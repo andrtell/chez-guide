@@ -1,4 +1,4 @@
-[Up]() [Prev](./0102-greet.md) [Next](./0104-greet.md)
+[Up]() [Prev](./0201-basic-memory.md) [Next](./0203-basic-memory.md)
 
 ----
 
@@ -7,18 +7,28 @@
 
 #include <stdio.h>
 
-static char name[100];  // Allocated as part of data-segment. Cleaned up by OS when process exit.
+// 1. Placed in the .bss section and is zero-filled automatically by the OS/loader before main() starts.
+//    (i.e name[0] = \0, name[1] = \0, ...)
+//
+// 2. OS reclaims the entire process address space on exit.
+static char name[100]; 
 
 int main() {
   scanf("%s", name);
-
   printf("Hello, %s\n", name);
 }
 ```
 
+```sh
+# compile
+
+cc -o greet greet.c
 ```
-$ cc -W -Wall -pedantic -o greet greet.c
-$ ./greet
+
+```sh
+# run
+
+./greet
 Peter
 Hello, Peter!
 ```
