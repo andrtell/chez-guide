@@ -1,4 +1,4 @@
-[Up]() [Next](./0102-greet.md)
+[Up]() [Prev](./0001-install.md) [Next](./0201-basic-memory.md)
 
 ----
 
