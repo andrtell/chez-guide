@@ -35,3 +35,9 @@ _From:_ `man 1 gcc`
     If you want to control for certain whether to generate the extra information,
     use -gvms (see below).
 ```
+
+_From:_ https://en.wikipedia.org/wiki/Stabs
+
+```
+At one stage stabs was widely used on Unix systems, but the newer DWARF format has largely supplanted it. 
+```
