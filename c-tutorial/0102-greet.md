@@ -7,20 +7,30 @@
 
 #include <stdio.h>
 
-int main() {
-	char name[100];     // Stack allocation of 100 chars on each call (automatic storage).
+int main(void) {
+	// 100 chars allocated on the stack on each call (automatic storage).
+	char name[100];     
 
-	scanf("%s", name);  // Array (char[]) decays into a pointer (char *) to its first element.
+	// char[] decays to a pointer char * to its first element char[0].
+	scanf("%s", name);  
 
 	printf("Hello, %s!\n", name);
 
-	// 'name' is cleaned up here (main returns, stack space reclaimed)
+	// name is automatically deallocated here (stack frame cleanup)
+	return 0;
 }
 ```
 
+```sh
+# compile
+
+cc -o greet greet.c
 ```
-$ cc -W -Wall -pedantic -o greet greet.c
-$ ./greet
+
+```
+# run
+
+./greet
 Peter
 Hello, Peter!
 ```
