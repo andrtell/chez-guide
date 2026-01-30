@@ -1,4 +1,4 @@
-[Up]() [Next]() [Prev]()
+[Up]() [Next](./0101-hello-world.md)
 
 ----
 
