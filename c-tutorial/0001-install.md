@@ -43,6 +43,7 @@ _all in one_
 
 ```sh
 sudo apt update
+
 sudo apt install \
   binutils \
   build-essential \
@@ -85,6 +86,7 @@ _all in one_
 
 ```sh
 sudo apt update
+
 sudo apt install \
     libcurl4-openssl-dev \
     libglib2.0-dev      \
