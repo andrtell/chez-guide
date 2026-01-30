@@ -23,17 +23,19 @@ cc -o greet greet.c
 ```
 
 ```sh
+# inspect
+
+objdump -s -j .data ./greet
+
+0000000000004010 <name>:
+    4010:	50 45 54 45 52 00                                   PETER.
+```
+
+```sh
 # run
 
 ./greet
 Hello, PETER!
 ```
 
-We can inspect the `.data` section.
 
-```
-objdump -s -j .data ./greet
-
-0000000000004010 <name>:
-    4010:	50 45 54 45 52 00                                   PETER.
-```
