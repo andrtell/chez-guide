@@ -78,3 +78,14 @@ SYNOPSIS
        double sqrt(double x);
 ```
 
+_From:_ `man 3 rand`
+
+```
+LIBRARY
+       Standard C library (libc, -lc)
+
+SYNOPSIS
+       #include <stdlib.h>
+
+       int rand(void);
+```
