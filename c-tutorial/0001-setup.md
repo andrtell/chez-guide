@@ -43,17 +43,53 @@ _all in one_
 
 ```sh
 sudo apt update
-sudo apt install binutils build-essential manpages-dev \
-                 gdb clang-format clang-tidy \
-                 cmake ninja-build \
-                 valgrind linux-tools-common linux-tools-generic \
-                 git \
-                 doxygen
+sudo apt install \
+  binutils \
+  build-essential \
+  manpages-dev \
+  gdb \
+  clang-format \
+  clang-tidy \
+  cmake \
+  ninja-build \
+  valgrind \
+  linux-tools-common \
+  linux-tools-generic \
+  git \
+  doxygen
 ```
 
-Useful libraries
+__Libraries__
 
+```sh
+# libcurl: Library for making HTTP/HTTPS/FTP requests.
+sudo apt install libcurl4-openssl-dev
+
+# GLib: Core low-level utility library (data structures, strings, file handling, events, main loops)
+sudo apt install libglib2.0-dev
+
+# GSL: GNU Scientific Library – wide collection of numerical routines (special functions, linear algebra, statistics, root-finding, FFT, etc.)
+sudo apt install libgsl-dev
+
+# SQLite: Lightweight, serverless, embedded SQL database engine.
+sudo apt install libsqlite3-dev
+
+# libxml2: Fast and feature-rich XML parsing, validation and manipulation library .
+sudo apt install libxml2-dev
+
+# ncurses: Library for creating text-based user interfaces in terminal.
+sudo apt install libncurses-dev
 ```
-$ apt install libcurl4-openssl-dev libglib2.0-dev libgsl-dev \
-              libsqlite3-dev libxml2-dev libcurses-dev
+
+_all in one_
+
+```sh
+sudo apt update
+sudo apt install \
+    libcurl4-openssl-dev \
+    libglib2.0-dev      \
+    libgsl-dev          \
+    libsqlite3-dev      \
+    libxml2-dev         \
+    libncurses-dev
 ```
