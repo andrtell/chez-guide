@@ -1,4 +1,4 @@
-[Up]() [Prev](./0105-greet.md) [Next]()
+[Up]()
 
 ----
 
