@@ -1,4 +1,4 @@
-[Up]() [Prev](./0101-hello.md) [Next](./0103-greet.md)
+[Up]() [Prev](./0101-hello-world.md) [Next](./0202-basic-memory.md)
 
 ----
 
