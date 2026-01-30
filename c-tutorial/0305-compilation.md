@@ -20,8 +20,6 @@ cc -O3 main.c
 _From:_ `man 1 gcc`
 
 ```
-These options control various sorts of optimizations.
-
 Without  any  optimization  option,  the  compiler's  goal  is to reduce
 the cost of compilation and to make debugging produce the expected results.
 
