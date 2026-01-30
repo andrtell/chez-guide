@@ -12,12 +12,15 @@ int main() {
 }
 ```
 
+```sh
+# compile
+
+cc -o hello hello.c
 ```
-$ cc -o hello hello.c
 
-$ ./hello
+```sh
+# run
+
+./hello
 Hello, world!
-
-$ echo $?
-0
 ```
