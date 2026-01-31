@@ -23,7 +23,7 @@ cc -o greet greet.c
 ```
 
 ```sh
-# inspect
+# observe
 
 objdump -s -j .data ./greet
 
