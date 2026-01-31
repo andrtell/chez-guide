@@ -45,5 +45,42 @@ ln -s /usr/local/lib/libeasymath.so  /usr/local/lib/libeasymath.so.1
 ldconfig
 ```
 
+----
+
+```c
+/// main.c
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <easymath.h>
+
+int main(void) {
+  int a = rand() % 11;
+  int b = rand() % 11;
+  int c = easymath_add(a, b);
+  printf("%d + %d = %d\n", a, b, c);
+}
+```
+
+```sh
+# compile
+
+cc -o main main.c -leasymath
+```
+
+```sh
+# observe
+
+ldd ./main
+	libeasymath.so => /usr/local/lib/libeasymath.so (0x000077e79c73b000)
+```
+
+```sh
+# run
+
+./main
+6 + 10 = 16
+```
 
 
