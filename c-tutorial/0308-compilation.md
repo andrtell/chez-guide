@@ -19,7 +19,7 @@ cc main.c `pkg-config --cflags --libs libcurl`
 ```
 
 ```sh
-# inspect
+# observe
 
 pkg-config --cflags --libs libcurl
 
