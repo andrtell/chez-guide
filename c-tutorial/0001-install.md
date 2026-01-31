@@ -64,10 +64,10 @@ __Libraries__
 
 ```sh
 # libcurl: Library for making HTTP/HTTPS/FTP requests.
-sudo apt install libcurl4-openssl-dev
+sudo apt install libcurl4-openssl-dev libcurl4-doc
 
 # GLib: Core low-level utility library (data structures, strings, file handling, events, main loops)
-sudo apt install libglib2.0-dev
+sudo apt install libglib2.0-dev libglib2.0-doc
 
 # GSL: GNU Scientific Library – wide collection of numerical routines (special functions, linear algebra, statistics, root-finding, FFT, etc.)
 sudo apt install libgsl-dev
