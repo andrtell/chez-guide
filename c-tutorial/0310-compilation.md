@@ -70,3 +70,24 @@ _From:_ `man 1 gcc`
     NOTE: In Ubuntu 8.10 and later versions, for LDFLAGS, the option -Wl,-z,relro is used.
     To disable, use -Wl,-z,norelro.
 ```
+
+_From:_ `man 1 ld`
+
+```
+-rpath=dir
+
+    Add a directory to the runtime library search path.
+
+    This is used when linking an ELF executable with shared objects.
+
+    All -rpath arguments are concatenated and passed to the runtime linker,
+    which uses them to locate shared objects at runtime.
+
+    The  -rpath  option  is  also  used  when  locating  shared objects which
+    are needed by shared objects explicitly included in the link ...
+
+    ...
+
+    If -rpath is not used when linking an ELF executable, the contents of
+    the environment variable "LD_RUN_PATH" will be used if it is defined.
+```
