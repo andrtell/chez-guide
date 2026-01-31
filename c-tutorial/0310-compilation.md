@@ -41,6 +41,14 @@ cc -I $LIB_DIR \
 ```
 
 ```sh
+# observe
+
+ldd ./main
+	
+libeasymath.so => /not/the/usual/place/easymath/libeasymath.so (0x000076c665abf000)
+```
+
+```sh
 # run
 
 ./main
