@@ -20,9 +20,10 @@ easymath.h
 #include <stdlib.h>
 
 int main(void) {
-  int input = rand();
-  int result = easymath_add(7, input);
-  printf("7 + %d = %d\n", input, result);
+  int a = rand() % 11;
+  int b = rand() % 11;
+  int c = easymath_add(a, b);
+  printf("%d + %d = %d\n", a, b, c);
 }
 ```
 
@@ -43,7 +44,7 @@ cc -I $LIB_DIR \
 # run
 
 ./main
-7 + 18042 = 18049
+6 + 10 = 16
 ```
 
 ----
