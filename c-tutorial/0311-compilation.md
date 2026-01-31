@@ -11,8 +11,26 @@ libeasymath.so
 easymath.h
 ```
 
+```c
+/// main.c
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <easymath.h>
+
+int main(void) {
+  int a = rand() % 11;
+  int b = rand() % 11;
+  int c = easymath_add(a, b);
+  printf("%d + %d = %d\n", a, b, c);
+}
+```
+
 ```sh
 # compile
+
+# note: -Wl,-rpath is missing here
 
 export LIB_DIR=/not/the/usual/place/easymath
 
