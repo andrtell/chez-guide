@@ -35,7 +35,7 @@ export LIB_DIR=/not/the/usual/place/easymath
 cc -I $LIB_DIR \
    -L $LIB_DIR \
    main.c \
-   -leasymath \                 # -leasymath drops "lib" and ".so"
+   -leasymath \            # -leasymath -> lib + easymath + .so
    -Wl,-rpath,$LIB_DIR \
    -o main
 ```
