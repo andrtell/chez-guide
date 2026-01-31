@@ -19,7 +19,7 @@ cc -c main.c
 ```
 
 ```sh
-# inspect
+# observe
 
 objdump -S main.o
 
