@@ -3,7 +3,7 @@
 ----
 
 ```sh
-# inspect
+# observe
 
 ls /not/the/usual/place/easymath
 
