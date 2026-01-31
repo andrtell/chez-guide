@@ -83,4 +83,28 @@ ldd ./main
 6 + 10 = 16
 ```
 
+----
 
+_From:_ https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
+
+```
+4.9. /usr/local : Local hierarchy
+
+The /usr/local hierarchy is for use by the system administrator when installing software locally.
+
+[...]
+
+include/	Local C header files
+lib/		Local libraries
+```
+
+_From:_ `man ldconfig`
+
+```
+DESCRIPTION
+       ldconfig  creates  the necessary links and cache to the most recent shared libraries
+       found in the directories specified on the command line, in the file /etc/ld.so.conf,
+       and in the trusted directories, /lib and /usr/lib.
+
+	   The  cache  is used by the run-time linker, ld.so or ld-linux.so.  
+```
