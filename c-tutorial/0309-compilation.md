@@ -29,7 +29,7 @@ cc -fPIC -shared -o libeasymath.so easymath.c
 ```
 
 ```sh
-# inspect
+# observe
 
 file libeasymath.so
 
