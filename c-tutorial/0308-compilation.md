@@ -13,17 +13,17 @@ int main(void) {
 ```
 
 ```sh
-# compile
-
-cc main.c `pkg-config --cflags --libs libcurl`
-```
-
-```sh
 # observe
 
 pkg-config --cflags --libs libcurl
 
 -I/usr/include/x86_64-linux-gnu -lcurl
+```
+
+```sh
+# compile
+
+cc main.c `pkg-config --cflags --libs libcurl`
 ```
 
 ----
