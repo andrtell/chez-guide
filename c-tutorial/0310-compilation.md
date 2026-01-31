@@ -14,10 +14,10 @@ easymath.h
 ```c
 /// main.c
 
-#include <easymath.h>
-
 #include <stdio.h>
 #include <stdlib.h>
+
+#include <easymath.h>
 
 int main(void) {
   int a = rand() % 11;
