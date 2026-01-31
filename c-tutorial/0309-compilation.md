@@ -28,14 +28,6 @@ int easymath_add(int a, int b) {
 cc -fPIC -shared -o libeasymath.so easymath.c
 ```
 
-```sh
-# observe
-
-file libeasymath.so
-
-libeasymath.so: ELF 64-bit LSB shared object, ..., dynamically linked, ...
-```
-
 ----
 
 _From:_ `man 1 gcc`
