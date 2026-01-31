@@ -89,9 +89,11 @@ sudo apt update
 
 sudo apt install \
     libcurl4-openssl-dev \
-    libglib2.0-dev      \
-    libgsl-dev          \
-    libsqlite3-dev      \
-    libxml2-dev         \
+    libcurl4-doc         \
+    libglib2.0-dev       \
+    libglib2.0-doc       \
+    libgsl-dev           \
+    libsqlite3-dev       \
+    libxml2-dev          \
     libncurses-dev
 ```
