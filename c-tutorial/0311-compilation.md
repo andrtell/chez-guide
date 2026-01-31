@@ -57,45 +57,28 @@ export LD_LIBRARY_PATH=/not/the/usual/place/easymath
 
 ----
 
-_From:_ `man 1 gcc`
+_From:_ `man 8 ld.so`
 
 ```
--I dir
+LD_LIBRARY_PATH
 
-    Add the directory dir to the list of directories to be searched for header files during preprocessing...
+    A  list of directories in which to search for ELF libraries at execution time.
 
--Ldir
+    The items in the list are separated by either colons or semi‐colons,
+    and there is no support for escaping either separator.
 
-    Add directory dir to the list of directories to be searched for -l.
+    A zero-length directory name indicates the current working directory.
 
--Wl,option
+    This variable is ignored in secure-execution mode.
 
-    Pass option as an option to the linker.
-    If option contains commas, it is split into multiple options at the commas.
-    You can use  this  syntax to  pass an argument to the option.
-    For example, -Wl,-Map,output.map passes -Map output.map to the linker.
-    When using the GNU linker, you can also get the same effect with -Wl,-Map=output.map.
-    NOTE: In Ubuntu 8.10 and later versions, for LDFLAGS, the option -Wl,-z,relro is used.
-    To disable, use -Wl,-z,norelro.
-```
+    Within the pathnames specified in LD_LIBRARY_PATH, the dynamic linker expands
+    the tokens $ORIGIN, $LIB, and $PLATFORM (or the versions  using curly  braces  around  the  names)
+    as described above in Dynamic string tokens.
 
-_From:_ `man 1 ld`
+    Thus, for example, the following would cause a library to be searched for in either the
+    lib or lib64 subdirectory below the directory containing the program to be executed:
 
-```
--rpath=dir
+    $ LD_LIBRARY_PATH='$ORIGIN/$LIB' prog
 
-    Add a directory to the runtime library search path.
-
-    This is used when linking an ELF executable with shared objects.
-
-    All -rpath arguments are concatenated and passed to the runtime linker,
-    which uses them to locate shared objects at runtime.
-
-    The  -rpath  option  is  also  used  when  locating  shared objects which
-    are needed by shared objects explicitly included in the link ...
-
-    ...
-
-    If -rpath is not used when linking an ELF executable, the contents of
-    the environment variable "LD_RUN_PATH" will be used if it is defined.
+    (Note the use of single quotes, which prevent expansion of $ORIGIN and $LIB as shell variables!)
 ```
