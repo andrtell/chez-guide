@@ -100,9 +100,10 @@ _From:_ `man ldconfig`
 
 ```
 DESCRIPTION
-       ldconfig  creates  the necessary links and cache to the most recent shared libraries
-       found in the directories specified on the command line, in the file /etc/ld.so.conf,
-       and in the trusted directories, /lib and /usr/lib.
 
-	   The  cache  is used by the run-time linker, ld.so or ld-linux.so.  
+ldconfig  creates  the necessary links and cache to the most recent shared libraries
+found in the directories specified on the command line, in the file /etc/ld.so.conf,
+and in the trusted directories, /lib and /usr/lib.
+
+The  cache  is used by the run-time linker, ld.so or ld-linux.so.  
 ```
