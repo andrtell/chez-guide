@@ -18,7 +18,7 @@ cc -o main main.c
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -o <file>
