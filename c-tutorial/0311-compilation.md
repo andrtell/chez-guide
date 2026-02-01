@@ -52,6 +52,7 @@ cc -I $LIB_DIR \
 export LD_LIBRARY_PATH=/not/the/usual/place/easymath
 
 ./main
+
 6 + 10 = 16
 ```
 
