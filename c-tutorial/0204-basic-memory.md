@@ -47,7 +47,7 @@ Hello, Peter!
 
 ----
 
-_From:_ `man 3 malloc`
+From `man 3 malloc`
 
 ```
 LIBRARY
