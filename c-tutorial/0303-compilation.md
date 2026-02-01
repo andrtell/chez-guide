@@ -18,7 +18,7 @@ cc -g main.c
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -g  Produce  debugging  information  in  the  operating  system's  native
@@ -36,7 +36,7 @@ _From:_ `man 1 gcc`
     use -gvms (see below).
 ```
 
-_From:_ https://en.wikipedia.org/wiki/Stabs
+From https://en.wikipedia.org/wiki/Stabs
 
 ```
 At one stage stabs was widely used on Unix systems, but the newer DWARF format has largely supplanted it. 
