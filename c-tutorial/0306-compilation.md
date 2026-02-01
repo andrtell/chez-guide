@@ -23,7 +23,7 @@ main.c:2:13: warning: unused variable ‘answer’ [-Wunused-variable]
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -Wall
