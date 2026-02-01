@@ -85,9 +85,11 @@ cc -o main main.c -leasymath
 # observe
 
 ldd ./main
+
 libeasymath.so.1 => /usr/local/lib/libeasymath.so.1
 
 readelf -d ./main
+
 Dynamic section at offset 0x2da8 contains 28 entries:
 Tag                Type                 Name/Value
 0x0000000000000001 (NEEDED)             Shared library: [libeasymath.so.1]
