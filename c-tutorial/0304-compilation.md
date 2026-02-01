@@ -18,7 +18,7 @@ cc -std=gnu18 main.c
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -std=
