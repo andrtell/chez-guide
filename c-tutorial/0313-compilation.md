@@ -94,7 +94,7 @@ Tag                Type                 Name/Value
 ```
 
 ```sh
-# run
+# run (works even after upgrade to libeasymath.so -> libeasymath.so.2)
 
 ./main
 6 + 10 = 16
