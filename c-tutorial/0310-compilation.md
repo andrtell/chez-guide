@@ -57,7 +57,7 @@ libeasymath.so => /not/the/usual/place/easymath/libeasymath.so (0x000076c665abf0
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -I dir
@@ -79,7 +79,7 @@ _From:_ `man 1 gcc`
     To disable, use -Wl,-z,norelro.
 ```
 
-_From:_ `man 1 ld`
+From `man 1 ld`
 
 ```
 -rpath=dir
