@@ -28,7 +28,7 @@ cc main.c `pkg-config --cflags --libs libcurl`
 
 ----
 
-_From:_ `man pkg-config`
+From `man pkg-config`
 
 ```
 NAME
