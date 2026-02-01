@@ -69,13 +69,15 @@ cc -o main main.c -leasymath
 # observe
 
 ldd ./main
-	libeasymath.so => /usr/local/lib/libeasymath.so (0x000077e79c73b000)
+
+libeasymath.so => /usr/local/lib/libeasymath.so
 ```
 
 ```sh
 # run
 
 ./main
+
 6 + 10 = 16
 ```
 
