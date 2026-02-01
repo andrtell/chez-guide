@@ -22,5 +22,6 @@ cc -o hello hello.c
 # run
 
 ./hello
+
 Hello, world!
 ```
