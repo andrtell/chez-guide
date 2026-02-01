@@ -36,7 +36,7 @@ The square root of 1804289383.0 is 42476.9.
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -l library
@@ -66,7 +66,7 @@ _From:_ `man 1 gcc`
 
 ```
 
-_From:_ `man 3 sqrt`
+From `man 3 sqrt`
 
 ```
 LIBRARY
