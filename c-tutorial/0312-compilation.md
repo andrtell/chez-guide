@@ -33,8 +33,8 @@ cc -fPIC -shared -o libeasymath.so easymath.c
 
 mkdir -p /usr/local/{lib,include}
 
-cp easymath.h     /usr/local/include/easymath.h
-cp libeasymath.so /usr/local/lib/libeasymath.so
+cp easymath.h     /usr/local/include/
+cp libeasymath.so /usr/local/lib/
 
 # update the dynamic linker cache
 
