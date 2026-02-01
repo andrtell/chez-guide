@@ -83,7 +83,7 @@ libeasymath.so => /usr/local/lib/libeasymath.so
 
 ----
 
-_From:_ https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
+From https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
 
 ```
 4.9. /usr/local : Local hierarchy
