@@ -96,7 +96,7 @@ include/	Local C header files
 lib/		Local libraries
 ```
 
-_From:_ `man ldconfig`
+From `man ldconfig`
 
 ```
 DESCRIPTION
