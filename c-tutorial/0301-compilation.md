@@ -42,7 +42,7 @@ Disassembly of section .text:
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -c  Compile or assemble the source files, but do not link.  The linking stage simply is not done.
