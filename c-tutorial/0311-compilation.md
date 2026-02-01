@@ -58,7 +58,7 @@ export LD_LIBRARY_PATH=/not/the/usual/place/easymath
 
 ----
 
-_From:_ `man 8 ld.so`
+From `man 8 ld.so`
 
 ```
 LD_LIBRARY_PATH
