@@ -17,7 +17,7 @@ cc -O3 main.c
 ```
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 Without any optimization option, the compiler's goal is to reduce the
