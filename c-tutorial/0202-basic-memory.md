@@ -29,6 +29,7 @@ cc -o greet greet.c
 # run
 
 ./greet
+
 Peter
 Hello, Peter!
 ```
