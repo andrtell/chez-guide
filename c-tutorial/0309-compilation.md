@@ -30,7 +30,7 @@ cc -fPIC -shared -o libeasymath.so easymath.c
 
 ----
 
-_From:_ `man 1 gcc`
+From `man 1 gcc`
 
 ```
 -shared
